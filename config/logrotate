@@ -1,0 +1,31 @@
+#add logrotator for the ha-analyzer log files. Change path as per config
+#sample below.
+
+/tmp/tsvfile.tsv.log
+{
+    rotate 4
+    weekly
+    missingok
+    notifempty
+    compress
+    delaycompress
+    sharedscripts
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+
+/tmp/ha-analyzer.log
+{
+    rotate 4
+    weekly
+    missingok
+    notifempty
+    compress
+    delaycompress
+    sharedscripts
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
