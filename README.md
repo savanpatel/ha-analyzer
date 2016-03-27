@@ -13,7 +13,9 @@ ha-analyzer parses for the haproxy logs and stores in mysql db. Please read WIKI
   the  ha-ui  mines  data  from  the  database
   and gives  various  view  for  the  requests.
 
-
+#WIKI
+ https://github.com/savanpatel/ha-analyzer/wiki
+ 
 #prerequisite
  python modules: 
    os
