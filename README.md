@@ -1,7 +1,7 @@
 # ha-analyzer
 parse haproxy logs and store to db for analysis.
 
-# how
+# How
 ha-analyzer parses for the haproxy logs and stores in mysql db. Please read WIKI for setting up and running ha-analyzer.
 ###haproxy-analyzer
   haproxy-analyzer  mines  haproxy logs  and  stores 
@@ -13,16 +13,16 @@ ha-analyzer parses for the haproxy logs and stores in mysql db. Please read WIKI
   the  ha-ui  mines  data  from  the  database
   and gives  various  view  for  the  requests.
 
-#WIKI
+#Wiki
  https://github.com/savanpatel/ha-analyzer/wiki
  
-#prerequisite
+#Prerequisite
  python modules: 
    os
    sys
    subprocess
    logging
-#todo
+#ToDo
   build UI for the trends.
   
 
